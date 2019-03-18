@@ -218,6 +218,8 @@ $endfor$
 \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
 \let\oldsubparagraph\subparagraph
 \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\DeclareGraphicsExtensions{.gif, .ps, .eps, .png}
+\DeclareGraphicsRule{.gif}{png}{}{`convert #1 'png:-'}
 
 \begin{document}
 
