@@ -109,6 +109,7 @@
     - [Upgrade the Component Version](op-guide/ansible-deployment-rolling-update.md#upgrade-the-component-version)
     - [TiDB 2.0 Upgrade Guide](op-guide/tidb-v2.0-upgrade-guide.md)
     - [TiDB 2.1 Upgrade Guide](op-guide/tidb-v2.1-upgrade-guide.md)
+    - [FAQs After Upgrading](op-guide/upgrade-FAQ.md)
   - [Tune Performance](op-guide/tune-tikv.md)
   + Backup and Migrate
     - [Backup and Restore](op-guide/backup-restore.md)
@@ -151,6 +152,7 @@
     - [Deployment](tools/lightning/deployment.md)
     - [Checkpoints](tools/lightning/checkpoints.md)
     - [Table Filter](tools/lightning/filter.md)
+    - [CSV Support](tools/lightning/csv.md)
     - [Monitor](tools/lightning/monitor.md)
     - [Troubleshooting](tools/lightning/errors.md)
     - [FAQs](tools/lightning/faq.md)
