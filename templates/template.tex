@@ -104,10 +104,13 @@ $if(listings)$
 \lstset{
     basicstyle=\ttfamily,
     numbers=left,
+    keywordstyle=\color[rgb]{0.13,0.29,0.53}\bfseries,
+    stringstyle=\color[rgb]{0.31,0.60,0.02},
+    commentstyle=\color[rgb]{0.56,0.35,0.01}\itshape,
     numberstyle=\footnotesize,
-    stepnumber=2,
+    stepnumber=1,
     numbersep=5pt,
-    backgroundcolor=\color{black!10},
+    backgroundcolor=\color[RGB]{248,248,248},
     showspaces=false,
     showstringspaces=false,
     showtabs=false,
@@ -116,7 +119,9 @@ $if(listings)$
     breaklines=true,
     breakatwhitespace=true,
     breakautoindent=true,
-    linewidth=\textwidth
+    escapeinside={\%*}{*)},
+    linewidth=\textwidth,
+    basewidth=0.5em,
 }
 
 $endif$
