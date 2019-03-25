@@ -103,12 +103,6 @@ $if(graphics)$
 % margins by default, and it is still possible to overwrite the defaults
 % using explicit options in \includegraphics[width, height, ...]{}
 \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-
-\usepackage{epstopdf}
-\epstopdfDeclareGraphicsRule
-  {.gif}{png}{.png}{convert gif:\SourceFile.\SourceExt png:\OutputFile}
-\AppendGraphicsExtensions{.gif}
-
 $endif$
 \ifxetex
   \usepackage[setpagesize=false, % page size defined by xetex
